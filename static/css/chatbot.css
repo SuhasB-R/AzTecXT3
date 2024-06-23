@@ -340,7 +340,7 @@ button:hover {
 
     .chat-box-body {
         padding: 20px;
-        height: calc(100vh - 8rem); /* Adjusted height to leave space for header and footer */
+        height: calc(100vh - 8rem);
         overflow-y: auto;
     }
 
@@ -351,11 +351,11 @@ button:hover {
         border: 1px solid grey;
         position: fixed;
         bottom: 1%;
-        left: 2%; /* Add gap from the left */
-        right: 2%; /* Add gap from the right */
-        background-color: #fff; /* Ensure footer background is visible */
+        left: 2%; 
+        right: 2%; 
+        background-color: #fff; 
         box-sizing: border-box;
-        width: calc(100% - 20px); /* Adjust width to account for left and right gaps */
+        width: calc(100% - 20px); 
     }
     
     .chat-box-footer input,
